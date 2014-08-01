@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface XYZViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *helloLabel;
 
 @end
